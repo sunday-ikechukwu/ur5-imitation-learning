@@ -1,8 +1,24 @@
 # Visual Studio Code settings and extensions
 .vscode  
 
-# Python bytecode cache
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# Dataset files
+*.hdf5
+*.h5
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Test files
 test_connection.py
