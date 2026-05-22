@@ -1,0 +1,13 @@
+# Simulation
+coppeliasim-zmqremoteapi-client
+
+# Data collection & processing
+numpy
+h5py
+
+# Training
+torch
+matplotlib
+
+# Utility
+pathlib
