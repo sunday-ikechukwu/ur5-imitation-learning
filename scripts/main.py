@@ -5,8 +5,8 @@ import random, time
 def randomize_cube_position(sim, cube_handle):
     '''Randomize the position of the cube within the reachable workspace of the robot.'''
     # Implementation for randomizing cube position
-    x = random.uniform(0.6, 1.1)
-    y = random.uniform(-0.78, -1)
+    x = random.uniform(0.46, 1.10)
+    y = random.uniform(-1.11, -0.76)
     z = 0.38  # Keep the cube on the table
     sim.setObjectPosition(cube_handle, -1, [x, y, z])
 
@@ -14,7 +14,7 @@ def main():
     sim = connect_to_coppeliasim()
     cube_handle = sim.getObject('/Cube')
 
-    for i in range(5):
+    for i in range(100):
         randomize_cube_position(sim, cube_handle)  # Randomize cube position at the start of each episode
         print(f"Episode {i+1}: cube randomized.")
 
