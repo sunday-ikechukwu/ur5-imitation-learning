@@ -8,10 +8,13 @@ __pycache__/
 *.pyd
 .venv/
 env/
+.evn
 
 # Dataset files
 *.hdf5
 *.h5
+
+*.pth
 
 # Logs
 *.log
@@ -24,3 +27,6 @@ Thumbs.db
 test_connection.py
 ori_pick_place_imitation_data_recorder.py
 excerpts.md
+
+fix_dataset_schema.py
+*.zip
