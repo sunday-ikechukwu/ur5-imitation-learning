@@ -1,0 +1,540 @@
+{
+  "policy": "BC",
+  "n_episodes": 20,
+  "n_grasped": 2,
+  "n_released": 0,
+  "n_success": 0,
+  "success_rate": 0.0,
+  "grasp_rate": 10.0,
+  "release_rate": 0.0,
+  "completion_rate": 10.0,
+  "avg_steps": 134.5,
+  "avg_steps_to_grasp": 198.5,
+  "avg_steps_to_release": null,
+  "avg_placement_error_xy": null,
+  "failure_breakdown": {
+    "stuck": 20
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 139,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.6498418921658287,
+        -0.7675464577815916,
+        0.38
+      ],
+      "cube_final": [
+        0.6498418921658287,
+        -0.7675464577815916,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 2,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 164,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.8923649103848641,
+        -0.7611502363630376,
+        0.38
+      ],
+      "cube_final": [
+        0.8923649103848641,
+        -0.7611502363630376,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": true,
+      "released": false,
+      "steps": 392,
+      "steps_to_grasp": 226,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.6002334666697562,
+        -0.8637614458475129,
+        0.38
+      ],
+      "cube_final": [
+        0.8748269115135598,
+        -0.7873569289059096,
+        0.3800014069249485
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 4,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 112,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.4788798132287051,
+        -1.0857315762586333,
+        0.38
+      ],
+      "cube_final": [
+        0.47887981322870504,
+        -1.0857315762586333,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 5,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 59,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        1.016830102375254,
+        -0.8461788481528731,
+        0.38
+      ],
+      "cube_final": [
+        1.016830102375254,
+        -0.8461788481528731,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 6,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": true,
+      "released": false,
+      "steps": 277,
+      "steps_to_grasp": 171,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.7443516268989547,
+        -0.8630068775851197,
+        0.38
+      ],
+      "cube_final": [
+        0.7059559492794106,
+        -0.7890137860222194,
+        0.3799787507433459
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 87,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.5040945881560177,
+        -1.0115742054803956,
+        0.38
+      ],
+      "cube_final": [
+        0.5040945881560177,
+        -1.0115742054803956,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 8,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 192,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.7523312456148699,
+        -0.8153439980898589,
+        0.38
+      ],
+      "cube_final": [
+        0.7523312456148699,
+        -0.8153439980898589,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 9,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 58,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        1.0019560232385152,
+        -0.8976649760568642,
+        0.38
+      ],
+      "cube_final": [
+        1.0019560232385152,
+        -0.8976649760568642,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 10,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 169,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.5236647715350743,
+        -0.8249247936951015,
+        0.38
+      ],
+      "cube_final": [
+        0.5236647715350743,
+        -0.8249247936951015,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 11,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 53,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        1.0154704469481348,
+        -1.0702890744238966,
+        0.38
+      ],
+      "cube_final": [
+        1.0154704469481348,
+        -1.0702890744238966,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 12,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 63,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        1.0436107123114742,
+        -0.8333175656841623,
+        0.38
+      ],
+      "cube_final": [
+        1.0436107123114742,
+        -0.8333175656841622,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 13,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 76,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.4640781827827326,
+        -1.0089309478812134,
+        0.38
+      ],
+      "cube_final": [
+        0.4640781827827326,
+        -1.0089309478812134,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 14,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 54,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.9945538311277629,
+        -1.0667613057272338,
+        0.38
+      ],
+      "cube_final": [
+        0.9945538311277629,
+        -1.0667613057272338,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 15,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 163,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.5178485953663181,
+        -0.9264881535865996,
+        0.38
+      ],
+      "cube_final": [
+        0.5178485953663181,
+        -0.9264881535865996,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 16,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 58,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        1.051032693267633,
+        -0.9891749928655511,
+        0.38
+      ],
+      "cube_final": [
+        1.051032693267633,
+        -0.9891749928655511,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 17,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 165,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.88351111057389,
+        -0.795815524256971,
+        0.38
+      ],
+      "cube_final": [
+        0.88351111057389,
+        -0.795815524256971,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 18,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 54,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.8380967575014645,
+        -0.9082975059838421,
+        0.38
+      ],
+      "cube_final": [
+        0.8380967575014646,
+        -0.9082975059838422,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 19,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 298,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.6961241471424688,
+        -0.7995853187581607,
+        0.38
+      ],
+      "cube_final": [
+        0.6961241471424688,
+        -0.7995853187581607,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 20,
+      "success": false,
+      "failure_reason": "stuck",
+      "grasped": false,
+      "released": false,
+      "steps": 57,
+      "steps_to_grasp": null,
+      "steps_to_release": null,
+      "placement_error_xy": null,
+      "cube_start": [
+        0.9645542589671192,
+        -0.9415727472628591,
+        0.38
+      ],
+      "cube_final": [
+        0.9645542589671192,
+        -0.9415727472628591,
+        0.38
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    }
+  ]
+}

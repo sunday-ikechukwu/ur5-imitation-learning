@@ -1,0 +1,538 @@
+{
+  "policy": "ACT",
+  "n_episodes": 20,
+  "n_grasped": 20,
+  "n_released": 20,
+  "n_success": 20,
+  "success_rate": 100.0,
+  "grasp_rate": 100.0,
+  "release_rate": 100.0,
+  "completion_rate": 100.0,
+  "avg_steps": 88.85,
+  "avg_steps_to_grasp": 40.85,
+  "avg_steps_to_release": 87.85,
+  "avg_placement_error_xy": 0.04664618128599947,
+  "failure_breakdown": {},
+  "episodes": [
+    {
+      "episode": 1,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.02771076031770147,
+      "cube_start": [
+        0.6498418921658287,
+        -0.7675464577815916,
+        0.38
+      ],
+      "cube_final": [
+        0.21786603271981103,
+        -0.6861822992585953,
+        0.29999999855016873
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 2,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 40,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.03171451631053495,
+      "cube_start": [
+        0.8923649103848641,
+        -0.7611502363630376,
+        0.38
+      ],
+      "cube_final": [
+        0.23152178822880543,
+        -0.6615084906255043,
+        0.2999999999999975
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 3,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 90,
+      "steps_to_grasp": 42,
+      "steps_to_release": 89,
+      "placement_error_xy": 0.06370847396425523,
+      "cube_start": [
+        0.6002334666697562,
+        -0.8637614458475129,
+        0.38
+      ],
+      "cube_final": [
+        0.2607786689961013,
+        -0.6840977949896059,
+        0.2999999999999997
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 4,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 94,
+      "steps_to_grasp": 46,
+      "steps_to_release": 93,
+      "placement_error_xy": 0.04491767426046314,
+      "cube_start": [
+        0.4788798132287051,
+        -1.0857315762586333,
+        0.38
+      ],
+      "cube_final": [
+        0.2449087660021177,
+        -0.6641032067696783,
+        0.29999999999937377
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 5,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.035622043753062715,
+      "cube_start": [
+        1.016830102375254,
+        -0.8461788481528731,
+        0.38
+      ],
+      "cube_final": [
+        0.23152675956503138,
+        -0.6815829412324529,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 6,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.060643197160685204,
+      "cube_start": [
+        0.7443516268989547,
+        -0.8630068775851197,
+        0.38
+      ],
+      "cube_final": [
+        0.2596755949282655,
+        -0.6757900182524542,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 7,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.010207728182249926,
+      "cube_start": [
+        0.5040945881560177,
+        -1.0115742054803956,
+        0.38
+      ],
+      "cube_final": [
+        0.2102031955204279,
+        -0.6653055590012669,
+        0.29999996358492714
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 8,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.03625236218862828,
+      "cube_start": [
+        0.7523312456148699,
+        -0.8153439980898589,
+        0.38
+      ],
+      "cube_final": [
+        0.2313797162414987,
+        -0.6831534419464573,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 9,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 88,
+      "steps_to_grasp": 40,
+      "steps_to_release": 87,
+      "placement_error_xy": 0.036988915894979955,
+      "cube_start": [
+        1.0019560232385152,
+        -0.8976649760568642,
+        0.38
+      ],
+      "cube_final": [
+        0.2334435197655095,
+        -0.6808022670350339,
+        0.2999999999346617
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 10,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 90,
+      "steps_to_grasp": 42,
+      "steps_to_release": 89,
+      "placement_error_xy": 0.06972470389684468,
+      "cube_start": [
+        0.5236647715350743,
+        -0.8249247936951015,
+        0.38
+      ],
+      "cube_final": [
+        0.26766092910008504,
+        -0.681838546381466,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 11,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 86,
+      "steps_to_grasp": 38,
+      "steps_to_release": 85,
+      "placement_error_xy": 0.032695472457200336,
+      "cube_start": [
+        1.0154704469481348,
+        -1.0702890744238966,
+        0.38
+      ],
+      "cube_final": [
+        0.2323055370838437,
+        -0.6700347129299209,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 12,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.04670136385472791,
+      "cube_start": [
+        1.0436107123114742,
+        -0.8333175656841623,
+        0.38
+      ],
+      "cube_final": [
+        0.2411766514432398,
+        -0.687034095721856,
+        0.2999999999999985
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 13,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.11524472848168521,
+      "cube_start": [
+        0.4640781827827326,
+        -1.0089309478812134,
+        0.38
+      ],
+      "cube_final": [
+        0.3150898932061269,
+        -0.6709727012984609,
+        0.29999999999999905
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 14,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 87,
+      "steps_to_grasp": 39,
+      "steps_to_release": 86,
+      "placement_error_xy": 0.020502608779470417,
+      "cube_start": [
+        0.9945538311277629,
+        -1.0667613057272338,
+        0.38
+      ],
+      "cube_final": [
+        0.21891399860111846,
+        -0.6729131665034076,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 15,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 90,
+      "steps_to_grasp": 42,
+      "steps_to_release": 89,
+      "placement_error_xy": 0.05680747474173469,
+      "cube_start": [
+        0.5178485953663181,
+        -0.9264881535865996,
+        0.38
+      ],
+      "cube_final": [
+        0.2552121324659495,
+        -0.6783675409909395,
+        0.29999993932693764
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 16,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 85,
+      "steps_to_grasp": 38,
+      "steps_to_release": 84,
+      "placement_error_xy": 0.08666088102066277,
+      "cube_start": [
+        1.051032693267633,
+        -0.9891749928655511,
+        0.38
+      ],
+      "cube_final": [
+        0.28537804810966344,
+        -0.6798560643960718,
+        0.2999999999803211
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 17,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.052540136877110157,
+      "cube_start": [
+        0.88351111057389,
+        -0.795815524256971,
+        0.38
+      ],
+      "cube_final": [
+        0.25192151748314295,
+        -0.6730389958377244,
+        0.29999999999999966
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 18,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.03303587124238725,
+      "cube_start": [
+        0.8380967575014645,
+        -0.9082975059838421,
+        0.38
+      ],
+      "cube_final": [
+        0.21669680857339646,
+        -0.6935058409600622,
+        0.2999999999999665
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 19,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 89,
+      "steps_to_grasp": 41,
+      "steps_to_release": 88,
+      "placement_error_xy": 0.03417487490035217,
+      "cube_start": [
+        0.6961241471424688,
+        -0.7995853187581607,
+        0.38
+      ],
+      "cube_final": [
+        0.2324446892920716,
+        -0.6757361816511543,
+        0.29999999999999233
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    },
+    {
+      "episode": 20,
+      "success": true,
+      "failure_reason": null,
+      "grasped": true,
+      "released": true,
+      "steps": 88,
+      "steps_to_grasp": 40,
+      "steps_to_release": 87,
+      "placement_error_xy": 0.03706983743525278,
+      "cube_start": [
+        0.9645542589671192,
+        -0.9415727472628591,
+        0.38
+      ],
+      "cube_final": [
+        0.23540097251690423,
+        -0.6759975268029705,
+        0.29999999999999993
+      ],
+      "place_pos": [
+        0.20000004370818406,
+        -0.6649999322043324,
+        0.45
+      ]
+    }
+  ]
+}
