@@ -24,13 +24,20 @@ def get_handles(sim):
         joint_handles.append(sim.getObject(f'/UR5/joint', {'index': i}))
 
     # Finger joint handles
-    finger_joint_8 = sim.getObject('/UR5/BarrettHand/jointC_2')
+    finger_joint = sim.getObject('/UR5/BarrettHand/jointC_2')
+
+    attach_handle = sim.getObject('/UR5/BarrettHand/attachPoint')
+    place_handle  = sim.getObject('/placePose')
+    hand_script    = sim.getObject('/UR5/BarrettHand/Script')
 
     return (
         cube_handle,
         tip_handle,
         joint_handles,
-        finger_joint_8
+        finger_joint,
+        attach_handle,
+        place_handle,
+        hand_script
     )
 
 def record_episode(sim, episode_index):
@@ -40,7 +47,7 @@ def record_episode(sim, episode_index):
     Saves collected data to HDF5 before returning.
     """
     
-    cube_handle, tip_handle, joint_handles, finger_joint_8 = get_handles(sim)
+    cube_handle, tip_handle, joint_handles, finger_joint = get_handles(sim)
 
     #===============Buffers to store data during recording======================
     joint_positions_buffer = []           # current arm configuration
@@ -61,7 +68,7 @@ def record_episode(sim, episode_index):
 
         cube_position = sim.getObjectPosition(cube_handle, -1)
         ee_pose = sim.getObjectPose(tip_handle, -1)
-        gripper_state = sim.getJointPosition(finger_joint_8)  # Assuming jointC_2 controls the gripper opening/closing
+        gripper_state = sim.getJointPosition(finger_joint)  # Assuming jointC_2 controls the gripper opening/closing
 
          # Action: only record once we have a previous position to diff against
         if previous_joint_positions is not None:
