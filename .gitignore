@@ -15,6 +15,7 @@ env/
 *.h5
 
 *.pth
+*.npy
 
 # Logs
 *.log
@@ -30,3 +31,6 @@ excerpts.md
 
 fix_dataset_schema.py
 *.zip
+
+doc/
+bc_docs.md
