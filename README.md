@@ -25,7 +25,7 @@ This project investigates a fundamental question in robot imitation learning: ca
 
 ## Demo
 ### Representative Rollout Comparison: BC vs ACT
-![BC vs ACT Representative Rollout](assets/bc_vs_act_side_by_side_comparison.gif)
+<video src="assets/bc_vs_act_side_by_side_comparison.mp4" autoplay loop muted playsinline style="max-width: 100%;"></video>
 
 > Three representative evaluation episodes illustrating common Behavioral Cloning failure modes and the corresponding ACT rollouts under identical initial cube configurations.
 
